@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "timezone": "Asia/Kolkata"
+  },
+  "festivals": [
+    {
+      "id": "holi",
+      "name": {
+        "en": "Happy Holi"
+      },
+      "date": {
+        "start": "2026-03-04",
+        "end": "2026-03-04"
+      },
+      "priority": 10,
+      "theme": {
+        "primaryHue": 330,
+        "saturation": 90,
+        "lightness": 55
+      },
+      "landing": {
+        "headline": "Create a Holi Surprise",
+        "ctaText": "Generate Holi Wish"
+      },
+      "wish": {
+        "headlineTemplate": "\ud83c\udf89 {name} wishes you a Happy Holi!",
+        "effects": [
+          "holiColorSplash"
+        ]
+      },
+      "share": {
+        "messageTemplate": "\ud83c\udf89 {name} sent you a Holi surprise! Tap \ud83d\udc49 {link}"
+      }
+    }
+  ]
+}
